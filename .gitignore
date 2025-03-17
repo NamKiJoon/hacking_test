@@ -1,0 +1,71 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+*.venv/
+Pipfile
+Pipfile.lock
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MyPy cache
+.mypy_cache/
+
+# pytest cache
+.pytest_cache/
+
+# Coverage reports
+.coverage
+*.cover
+htmlcov/
+
+# Logs and Debugging files
+*.log
+*.out
+*.err
+debug.log
+
+# VS Code settings
+.vscode/
+
+# JetBrains IDE settings
+.idea/
+
+# macOS metadata files
+.DS_Store
+
+# Windows metadata files
+Thumbs.db
+
+# SQLite database (if applicable)
+*.sqlite3
+*.db
+*.sqlite
+
+# AWS credential files (important)
+*.pem
+*.key
+
+# Docker & CI/CD
+docker-compose.override.yml
+.envrc
+.terraform/
+
+# Python 가상환경 무시
+venv_attack
+venv_prod
+venv_dev
+venv
+test
