@@ -20,7 +20,7 @@ attack_logs = []
 
 from flask import request
 
-@app.post("/api/log")
+@app.post("/api/login")
 def receive_log():  # 파라미터에서 request 제거
     """로그 수신 엔드포인트 - 요청 데이터 그대로 출력"""
     try:

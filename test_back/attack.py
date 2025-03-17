@@ -91,6 +91,8 @@ async def receive_log(request: Request):
             request_body = data.get("body")
             request_headers = data.get("headers", {})
             host_value = request_headers.get("Host") or request_headers.get("host")
+            if not host_value:
+                host_value = "127.0.0.1"
             print(f"추출된 Host 헤더: {host_value}")
             # 대상 URL 구성
             target_url = f"http://{host_value}{target_path}"
